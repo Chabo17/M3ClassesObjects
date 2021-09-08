@@ -30,5 +30,6 @@ public class LuckySevens {
         System.out.println("You should have quit after "+max+" rolls when you had "+Mmoney);
         System.out.println("Play again?");
     }while(!Scan.next().equalsIgnoreCase("no"));
+    Scan.close();
     }
 }

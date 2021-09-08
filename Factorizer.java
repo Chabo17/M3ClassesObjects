@@ -8,9 +8,10 @@ public class Factorizer {
 
     public static void Factor() {
         int num =0;
+        Scanner Can = new Scanner(System.in);
         do{
             System.out.print("What number would you like to factor? ");
-            Scanner Can = new Scanner(System.in);
+            
             num = Can.nextInt();
             int sum =0,j=0;
 
@@ -40,5 +41,6 @@ public class Factorizer {
             System.out.println();
             
         }while(num>0);
+        Can.close();
     }
 }

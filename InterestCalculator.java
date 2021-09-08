@@ -19,5 +19,6 @@ public class InterestCalculator {
             invest = invest*(1+(rate/100)); 
             System.out.println("Ended with $"+invest);
         }
+        Scan.close();
     }
 }

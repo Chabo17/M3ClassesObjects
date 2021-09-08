@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.InputMismatchException;
 import java.util.Random;
 
 public class RPS {
@@ -86,6 +85,6 @@ public class RPS {
         }
 
     }while(num>=0);
-   
+    Scan.close();
     }
 }
